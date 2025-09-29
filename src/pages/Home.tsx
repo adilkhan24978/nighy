@@ -23,14 +23,14 @@ const Home = () => {
         </div>
         
         <div className="max-w-4xl mx-auto text-center relative z-10">
-          <h1 className="text-5xl md:text-6xl font-semibold text-ocean-800 mb-8 leading-tight animate-float">
+          <h1 className="text-5xl md:text-6xl font-semibold text-ocean-800 mb-8 leading-tight animate-float font-google-sans-code">
             Shark - AI-Driven Marine Insights
           </h1>
-          <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto leading-relaxed font-zakartra-sans">
             Unifying ocean, fisheries, otolith, and DNA data for sustainable marine management 
             through advanced AI-powered analytics and visualization.
           </p>
-          <Link to="/ai" className="glass-ocean text-white px-8 py-4 rounded-md font-medium text-lg glow-hover transition-all duration-200 inline-flex items-center space-x-2">
+          <Link to="/ai" className="bg-ocean-800 text-white px-8 py-4 rounded-md font-medium text-lg glow-hover transition-all duration-200 inline-flex items-center space-x-2">
             <span>Try AI Assistant</span>
             <ArrowRight className="w-5 h-5" />
           </Link>
@@ -40,17 +40,17 @@ const Home = () => {
       {/* Oceanography and Marine Science Section */}
       <section className="py-20 px-6">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-semibold text-ocean-800 text-center mb-16">Oceanography & Marine Science</h2>
+          <h2 className="text-4xl font-semibold text-ocean-800 text-center mb-16 font-google-sans-code">Oceanography & Marine Science</h2>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
             <div>
-              <h3 className="text-2xl font-semibold text-ocean-700 mb-6">Understanding Our Oceans</h3>
-              <p className="text-lg text-gray-600 mb-4 leading-relaxed">
+              <h3 className="text-2xl font-semibold text-ocean-700 mb-6 font-google-sans-code">Understanding Our Oceans</h3>
+              <p className="text-lg text-gray-600 mb-4 leading-relaxed font-zakartra-sans">
                 Oceanography is the scientific study of the ocean, encompassing its physical, chemical, biological, and geological aspects. 
                 Our platform integrates cutting-edge marine science research to provide comprehensive insights into ocean ecosystems, 
                 climate patterns, and marine biodiversity.
               </p>
-              <p className="text-lg text-gray-600 leading-relaxed">
+              <p className="text-lg text-gray-600 leading-relaxed font-zakartra-sans">
                 The Indian Ocean, covering approximately 70.6 million square kilometers, is home to diverse marine ecosystems. 
                 From coral reefs in the Maldives to deep-sea trenches, this ocean supports over 3,000 fish species and countless 
                 other marine organisms crucial for global biodiversity and climate regulation.
@@ -126,22 +126,22 @@ const Home = () => {
       {/* Our Idea Section */}
       <section className="py-20 px-6">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-semibold text-ocean-800 text-center mb-16">Our Idea</h2>
+          <h2 className="text-4xl font-semibold text-ocean-800 text-center mb-16 font-google-sans-code">Our Idea</h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="glass p-8 rounded-2xl glow-hover transition-all duration-300 text-center">
               <Globe className="w-12 h-12 text-ocean-600 mx-auto mb-4 animate-pulse-soft" />
-              <h3 className="text-xl font-medium text-ocean-800 mb-3">Oceanographic Data</h3>
-              <p className="text-gray-600">Ocean currents, salinity levels, and climate patterns for comprehensive marine analysis</p>
+              <h3 className="text-xl font-medium text-ocean-800 mb-3 font-google-sans-code">Oceanographic Data</h3>
+              <p className="text-gray-600 font-zakartra-sans">Ocean currents, salinity levels, and climate patterns for comprehensive marine analysis</p>
             </div>
             <div className="glass p-8 rounded-2xl glow-hover transition-all duration-300 text-center">
               <Fish className="w-12 h-12 text-aqua-600 mx-auto mb-4 animate-pulse-soft" />
-              <h3 className="text-xl font-medium text-ocean-800 mb-3">Fisheries Data</h3>
-              <p className="text-gray-600">Stock health monitoring, catch trends, and sustainable fishing practices</p>
+              <h3 className="text-xl font-medium text-ocean-800 mb-3 font-google-sans-code">Fisheries Data</h3>
+              <p className="text-gray-600 font-zakartra-sans">Stock health monitoring, catch trends, and sustainable fishing practices</p>
             </div>
             <div className="glass p-8 rounded-2xl glow-hover transition-all duration-300 text-center">
               <Dna2 className="w-12 h-12 text-deepBlue-600 mx-auto mb-4 animate-pulse-soft" />
-              <h3 className="text-xl font-medium text-ocean-800 mb-3">Biodiversity Data</h3>
-              <p className="text-gray-600">Environmental DNA analysis, species taxonomy, and biodiversity mapping</p>
+              <h3 className="text-xl font-medium text-ocean-800 mb-3 font-google-sans-code">Biodiversity Data</h3>
+              <p className="text-gray-600 font-zakartra-sans">Environmental DNA analysis, species taxonomy, and biodiversity mapping</p>
             </div>
           </div>
         </div>
@@ -150,8 +150,8 @@ const Home = () => {
       {/* Scientists Section */}
       <section className="py-20 px-6">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-semibold text-ocean-800 text-center mb-8">Our Indian Marine Scientists</h2>
-          <p className="text-lg text-gray-600 text-center mb-16 max-w-3xl mx-auto">
+          <h2 className="text-4xl font-semibold text-ocean-800 text-center mb-8 font-google-sans-code">Our Indian Marine Scientists</h2>
+          <p className="text-lg text-gray-600 text-center mb-16 max-w-3xl mx-auto font-zakartra-sans">
             Leading researchers from premier Indian institutions contributing to marine science and ocean conservation
           </p>
           
@@ -260,27 +260,27 @@ const Home = () => {
       {/* Features Section */}
       <section className="py-20 px-6">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-semibold text-ocean-800 text-center mb-16">Features</h2>
+          <h2 className="text-4xl font-semibold text-ocean-800 text-center mb-16 font-google-sans-code">Features</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="glass p-6 rounded-2xl glow-hover transition-all duration-300 text-center">
               <Search className="w-10 h-10 text-ocean-600 mx-auto mb-4 animate-pulse-soft" />
-              <h3 className="text-lg font-medium text-ocean-800 mb-2">AI Search</h3>
-              <p className="text-sm text-gray-600">Intelligent query processing for marine data</p>
+              <h3 className="text-lg font-medium text-ocean-800 mb-2 font-google-sans-code">AI Search</h3>
+              <p className="text-sm text-gray-600 font-zakartra-sans">Intelligent query processing for marine data</p>
             </div>
             <div className="glass p-6 rounded-2xl glow-hover transition-all duration-300 text-center">
               <Map className="w-10 h-10 text-aqua-600 mx-auto mb-4 animate-pulse-soft" />
-              <h3 className="text-lg font-medium text-ocean-800 mb-2">Interactive Maps</h3>
-              <p className="text-sm text-gray-600">Real-time visualization of marine ecosystems</p>
+              <h3 className="text-lg font-medium text-ocean-800 mb-2 font-google-sans-code">Interactive Maps</h3>
+              <p className="text-sm text-gray-600 font-zakartra-sans">Real-time visualization of marine ecosystems</p>
             </div>
             <div className="glass p-6 rounded-2xl glow-hover transition-all duration-300 text-center">
               <Database className="w-10 h-10 text-deepBlue-600 mx-auto mb-4 animate-pulse-soft" />
-              <h3 className="text-lg font-medium text-ocean-800 mb-2">Biodiversity Data</h3>
-              <p className="text-sm text-gray-600">Comprehensive species and habitat information</p>
+              <h3 className="text-lg font-medium text-ocean-800 mb-2 font-google-sans-code">Biodiversity Data</h3>
+              <p className="text-sm text-gray-600 font-zakartra-sans">Comprehensive species and habitat information</p>
             </div>
             <div className="glass p-6 rounded-2xl glow-hover transition-all duration-300 text-center">
               <BookOpen className="w-10 h-10 text-ocean-600 mx-auto mb-4 animate-pulse-soft" />
-              <h3 className="text-lg font-medium text-ocean-800 mb-2">API Access</h3>
-              <p className="text-sm text-gray-600">Programmatic access to all platform data</p>
+              <h3 className="text-lg font-medium text-ocean-800 mb-2 font-google-sans-code">API Access</h3>
+              <p className="text-sm text-gray-600 font-zakartra-sans">Programmatic access to all platform data</p>
             </div>
           </div>
         </div>

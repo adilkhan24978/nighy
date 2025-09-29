@@ -127,7 +127,7 @@ Date: ${new Date().toLocaleDateString()}`;
               <p className="text-gray-600 mb-4">or click to browse files</p>
               <button 
                 onClick={handleChooseFiles}
-                className="glass-ocean text-white px-6 py-2 rounded-md glow-hover transition-all duration-200"
+                className="bg-ocean-800 text-white px-6 py-2 rounded-md glow-hover transition-all duration-200"
               >
                 Choose Files
               </button>
@@ -155,7 +155,7 @@ Date: ${new Date().toLocaleDateString()}`;
                       </div>
                       <button
                         onClick={() => handleAnalyze(file)}
-                        className="glass-ocean text-white px-4 py-2 rounded-md text-sm glow-hover transition-all duration-200 flex items-center space-x-2"
+                        className="bg-ocean-800 text-white px-4 py-2 rounded-md text-sm glow-hover transition-all duration-200 flex items-center space-x-2"
                       >
                         <Zap className="w-4 h-4" />
                         <span>Analyze</span>
@@ -219,13 +219,13 @@ Date: ${new Date().toLocaleDateString()}`;
                   
                   <button 
                     onClick={handleDownloadReport}
-                    className="w-full glass-fishOrange text-white py-3 rounded-lg glow-fishOrange transition-all duration-200 flex items-center justify-center space-x-2"
+                    className="bg-ocean-800 text-white px-4 py-2 rounded-lg glow-hover transition-all duration-200"
                   >
                     <Download className="w-4 h-4" />
                     <span>Download Report</span>
                   </button>
                 </div>
-              </div>
+                    className="glass text-ocean-700 px-4 py-2 rounded-lg transition-all duration-200"
             ) : pendingAnalysis ? (
               <div className="glass rounded-2xl p-6 border border-yellow-300 glow-soft">
                 <div className="flex items-center justify-between mb-4">
@@ -270,7 +270,7 @@ Date: ${new Date().toLocaleDateString()}`;
           <h2 className="text-2xl font-semibold text-ocean-800 mb-6">Otolith Gallery</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {sampleGallery.map((item) => (
-              <div key={item.id} className="glass-dark rounded-xl p-4 glow-hover transition-all duration-200">
+              <div key={item.id} className="bg-sand-50 rounded-xl p-4 glow-hover transition-all duration-200">
                 <div className="h-32 bg-gradient-to-br from-ocean-100 to-aqua-200 rounded-lg mb-3 flex items-center justify-center glow-soft">
                   <div className="text-center">
                     <Image className="w-8 h-8 text-ocean-700 mx-auto mb-1 animate-pulse-soft" />

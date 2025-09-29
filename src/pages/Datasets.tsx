@@ -138,7 +138,7 @@ const Datasets = () => {
               </thead>
               <tbody className="divide-y divide-white/20">
                 {filteredDatasets.map((dataset, index) => (
-                  <tr key={index} className="hover:glass-dark transition-colors duration-200">
+                  <tr key={index} className="transition-colors duration-200">
                     <td className="px-6 py-4">
                       <div className="font-medium text-ocean-800 font-mono text-sm">{dataset.name}</div>
                     </td>

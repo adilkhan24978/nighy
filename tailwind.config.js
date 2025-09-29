@@ -3,6 +3,10 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      fontFamily: {
+        'google-sans-code': ['Google Sans Code', 'ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', 'monospace'],
+        'zakartra-sans': ['Zakartra Sans', 'ui-sans-serif', 'system-ui', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'],
+      },
       colors: {
         ocean: {
           50: '#f0f9ff',
@@ -155,7 +159,7 @@ export default {
         '.glow-hover': {
           transition: 'all 0.3s ease',
           '&:hover': {
-            boxShadow: '0 0 30px rgba(14, 165, 233, 0.3), 0 0 50px rgba(240, 113, 66, 0.15)',
+            boxShadow: '0 0 30px rgba(56, 189, 248, 0.4), 0 0 50px rgba(56, 189, 248, 0.2)',
             transform: 'translateY(-2px)',
           }
         },
