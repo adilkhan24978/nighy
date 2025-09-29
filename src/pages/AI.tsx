@@ -269,11 +269,7 @@ const AI = () => {
                 <button
                   key={index}
                   onClick={() => handleQuickAction(action.query)}
-                  className={`flex items-center space-x-2 px-3 py-2 glass rounded-lg glow-hover transition-all duration-200 text-sm ${
-                    index % 3 === 0 ? 'hover:glass-ocean hover:text-white' :
-                    index % 3 === 1 ? 'hover:glass-coral hover:text-white' :
-                    'hover:glass-seaweed hover:text-white'
-                  }`}
+                  className="flex items-center space-x-2 px-3 py-2 bg-ocean-800 text-white rounded-lg glow-hover transition-all duration-200 text-sm"
                 >
                   <action.icon className="w-4 h-4" />
                   <span>{action.label}</span>

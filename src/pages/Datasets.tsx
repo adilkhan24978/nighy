@@ -162,21 +162,21 @@ const Datasets = () => {
                       <div className="flex items-center space-x-2">
                         <button 
                           onClick={() => handleDownload(dataset)}
-                          className="p-2 text-coral-600 hover:glass-coral hover:text-white rounded-lg glow-coral transition-all duration-200"
+                          className="bg-ocean-800 text-white p-2 rounded-lg glow-hover transition-all duration-200"
                           title="Download dataset"
                         >
                           <Download className="w-4 h-4" />
                         </button>
                         <button 
                           onClick={() => handleView(dataset)}
-                          className="p-2 text-seaweed-600 hover:glass-seaweed hover:text-white rounded-lg glow-seaweed transition-all duration-200"
+                          className="bg-ocean-800 text-white p-2 rounded-lg glow-hover transition-all duration-200"
                           title="View dataset details"
                         >
                           <Eye className="w-4 h-4" />
                         </button>
                         <button 
                           onClick={() => handleCite(dataset)}
-                          className="p-2 text-fishOrange-600 hover:glass-fishOrange hover:text-white rounded-lg glow-fishOrange transition-all duration-200"
+                          className="bg-ocean-800 text-white p-2 rounded-lg glow-hover transition-all duration-200"
                           title="Copy citation"
                         >
                           <Quote className="w-4 h-4" />
@@ -243,7 +243,7 @@ const Datasets = () => {
                   </button>
                   <button 
                     onClick={() => handleCite(selectedDataset)}
-                    className="glass text-ocean-700 px-4 py-2 rounded-lg transition-all duration-200"
+                    className="bg-ocean-800 text-white px-4 py-2 rounded-lg glow-hover transition-all duration-200"
                   >
                     Copy Citation
                   </button>
