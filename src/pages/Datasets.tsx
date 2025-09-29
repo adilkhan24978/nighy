@@ -237,13 +237,13 @@ const Datasets = () => {
                 <div className="flex space-x-3 pt-4">
                   <button 
                     onClick={() => handleDownload(selectedDataset)}
-                    className="glass-ocean text-white px-4 py-2 rounded-lg glow-hover transition-all duration-200"
+                    className="bg-ocean-800 text-white px-4 py-2 rounded-lg glow-hover transition-all duration-200"
                   >
                     Download
                   </button>
                   <button 
                     onClick={() => handleCite(selectedDataset)}
-                    className="glass text-ocean-700 px-4 py-2 rounded-lg hover:glass-dark transition-all duration-200"
+                    className="glass text-ocean-700 px-4 py-2 rounded-lg transition-all duration-200"
                   >
                     Copy Citation
                   </button>

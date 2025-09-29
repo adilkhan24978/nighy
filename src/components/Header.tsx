@@ -46,7 +46,7 @@ const Header = () => {
           </nav>
 
           <Link to="/ai" className="glass-ocean text-white px-6 py-2 rounded-md font-medium hover:scale-105 glow-hover transition-all duration-200 flex items-center space-x-2">
-          <Link to="/ai" className="bg-ocean-800 text-white px-6 py-2 rounded-md font-medium hover:scale-105 glow-hover transition-all duration-200 flex items-center space-x-2">
+          <Link to="/ai" className="bg-ocean-800 text-white px-6 py-2 rounded-md font-medium glow-hover transition-all duration-200 flex items-center space-x-2">
             <Bot className="w-4 h-4" />
             <span>AI Assistant</span>
           </Link>

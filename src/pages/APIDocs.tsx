@@ -192,7 +192,7 @@ For complete documentation, visit our online portal.`;
                     activeTab === id
                       ? 'border-ocean-500 text-ocean-700 glow-soft'
                       : 'border-transparent text-gray-500'
-                  className="bg-ocean-800 text-white px-6 py-3 rounded-lg glow-hover transition-all duration-200 flex items-center space-x-2"
+                  }`}
                 >
                   <Icon className="w-4 h-4" />
                   <span>{label}</span>
@@ -252,7 +252,7 @@ For complete documentation, visit our online portal.`;
                 <div className="flex items-center justify-center">
                   <button 
                     onClick={handleDownloadManual}
-                    className="glass-ocean text-white px-6 py-3 rounded-lg glow-hover transition-all duration-200 flex items-center space-x-2"
+                    className="bg-ocean-800 text-white px-6 py-3 rounded-lg glow-hover transition-all duration-200 flex items-center space-x-2"
                   >
                     <Download className="w-4 h-4" />
                     <span>Download Complete API Manual</span>

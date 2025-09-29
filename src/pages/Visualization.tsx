@@ -226,7 +226,7 @@ const Visualization = () => {
                   className={`flex items-center space-x-2 px-4 py-2 rounded-md transition-all duration-200 ${
                     viewMode === id
                       ? 'glass-ocean text-white glow-soft'
-                      : 'text-gray-600 hover:bg-[#F8F9FB]'
+                      : 'text-gray-600'
                   }`}
                 >
                   <Icon className="w-4 h-4" />
@@ -390,7 +390,7 @@ const Visualization = () => {
                           </div>
                         </div>
                         <div className="flex items-end">
-                          <button className="glass-ocean text-white px-4 py-2 rounded-lg glow-hover transition-all duration-200 flex items-center space-x-2">
+                          <button className="bg-ocean-800 text-white px-4 py-2 rounded-lg glow-hover transition-all duration-200 flex items-center space-x-2">
                             <Filter className="w-4 h-4" />
                             <span>Apply Filters</span>
                           </button>
@@ -497,7 +497,7 @@ const Visualization = () => {
                       </thead>
                       <tbody className="divide-y divide-white/20">
                         {topSpeciesData.map((species, index) => (
-                          <tr key={index} className="hover:glass-dark transition-colors duration-200">
+                          <tr key={index} className="transition-colors duration-200">
                             <td className="px-4 py-3 font-medium text-ocean-800">{species.species}</td>
                             <td className="px-4 py-3 font-mono text-sm">{species.count}</td>
                             <td className="px-4 py-3 text-gray-600">Northern</td>

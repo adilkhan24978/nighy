@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'google-sans-code': ['Google Sans Code', 'ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', 'monospace'],
-        'zakartra-sans': ['Zakartra Sans', 'ui-sans-serif', 'system-ui', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'],
+        'google-sans-code': ['Source Code Pro', 'ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', 'monospace'],
+        'zakartra-sans': ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'],
       },
       colors: {
         ocean: {
@@ -159,7 +159,7 @@ export default {
         '.glow-hover': {
           transition: 'all 0.3s ease',
           '&:hover': {
-            boxShadow: '0 0 30px rgba(56, 189, 248, 0.4), 0 0 50px rgba(56, 189, 248, 0.2)',
+            boxShadow: '0 0 20px rgba(56, 189, 248, 0.6), 0 0 40px rgba(56, 189, 248, 0.3)',
             transform: 'translateY(-2px)',
           }
         },
