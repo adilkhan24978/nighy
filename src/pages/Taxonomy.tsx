@@ -354,7 +354,7 @@ Focus on marine fish species. Provide accurate taxonomic classification and be s
                 <button
                   onClick={handleEnterSearch}
                   disabled={!searchTerm.trim() || isSearching}
-                  className="bg-ocean-800 text-white px-6 py-4 rounded-lg glow-hover transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100 flex items-center space-x-2"
+                  className="bg-ocean-800 text-white px-6 py-4 rounded-lg glow-hover transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed flex items-center space-x-2"
                 >
                   {isSearching ? (
                     <Loader2 className="w-5 h-5 animate-spin" />
@@ -517,7 +517,7 @@ Focus on marine fish species. Provide accurate taxonomic classification and be s
                     <p className="text-gray-600">Upload a fish image for AI identification</p>
                     <button 
                       onClick={handleImageUpload}
-                      className="bg-ocean-800 text-white px-4 py-2 rounded-lg glow-hover transition-all duration-200"
+                     className="bg-ocean-800 text-white px-4 py-2 rounded-lg glow-hover transition-all duration-200"
                     >
                       Choose Image
                     </button>

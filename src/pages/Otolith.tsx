@@ -219,13 +219,28 @@ Date: ${new Date().toLocaleDateString()}`;
                   
                   <button 
                     onClick={handleDownloadReport}
-                    className="bg-ocean-800 text-white px-4 py-2 rounded-lg glow-hover transition-all duration-200"
+                    className="bg-ocean-800 text-white px-4 py-2 rounded-lg glow-hover transition-all duration-200 flex items-center space-x-2"
                   >
                     <Download className="w-4 h-4" />
                     <span>Download Report</span>
                   </button>
                 </div>
+                <div className="flex space-x-3 pt-4">
+                  <button 
+                    onClick={() => handleDownloadReport()}
+                    className="bg-ocean-800 text-white px-4 py-2 rounded-lg glow-hover transition-all duration-200 flex items-center space-x-2"
+                  >
+                    <Download className="w-4 h-4" />
+                    <span>Download</span>
+                  </button>
+                  <button 
                     className="glass text-ocean-700 px-4 py-2 rounded-lg transition-all duration-200"
+                  >
+                    <Eye className="w-4 h-4" />
+                    <span>View Details</span>
+                  </button>
+                </div>
+              </div>
             ) : pendingAnalysis ? (
               <div className="glass rounded-2xl p-6 border border-yellow-300 glow-soft">
                 <div className="flex items-center justify-between mb-4">

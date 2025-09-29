@@ -304,7 +304,7 @@ const AI = () => {
               <button
                 onClick={handleSendMessage}
                 disabled={!inputMessage.trim()}
-                className="bg-ocean-800 text-white p-3 rounded-lg glow-hover transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100"
+                className="bg-ocean-800 text-white p-3 rounded-lg glow-hover transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 <Send className="w-5 h-5" />
               </button>
