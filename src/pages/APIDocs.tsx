@@ -193,8 +193,8 @@ For complete documentation, visit our online portal.`;
                       ? 'border-ocean-500 text-ocean-700 glow-soft'
                       : 'border-transparent text-gray-500'
                   }`}
+                >
                   <Icon className="w-4 h-4" />
-                  <span>{label}</span>
                 </button>
               ))}
             </nav>
