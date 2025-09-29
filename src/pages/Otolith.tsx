@@ -100,7 +100,8 @@ Date: ${new Date().toLocaleDateString()}`;
   };
 
   return (
-    <div className="py-12 px-6 min-h-screen">
+    <>
+      <div className="py-12 px-6 min-h-screen">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h1 className="text-4xl font-semibold text-ocean-800 mb-4 animate-float">Otolith Analysis</h1>
@@ -264,9 +265,10 @@ Date: ${new Date().toLocaleDateString()}`;
             )}
           </div>
         </div>
+      </div>
 
-        {/* Otolith Gallery */}
-        <div className="glass rounded-2xl p-6 glow-soft">
+      {/* Otolith Gallery */}
+      <div className="glass rounded-2xl p-6 glow-soft max-w-6xl mx-auto mb-12 px-6">
           <h2 className="text-2xl font-semibold text-ocean-800 mb-6">Otolith Gallery</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {sampleGallery.map((item) => (
@@ -295,7 +297,7 @@ Date: ${new Date().toLocaleDateString()}`;
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

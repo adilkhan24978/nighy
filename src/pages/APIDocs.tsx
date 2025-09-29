@@ -188,12 +188,11 @@ For complete documentation, visit our online portal.`;
                 <button
                   key={id}
                   onClick={() => setActiveTab(id)}
-                  className={`flex items-center space-x-2 py-2 px-1 border-b-2 font-medium text-sm whitespace-nowrap transition-all duration-200 ${
+                  className={`bg-ocean-800 text-white px-6 py-3 rounded-lg glow-hover transition-all duration-200 flex items-center space-x-2 py-2 px-1 border-b-2 font-medium text-sm whitespace-nowrap ${
                     activeTab === id
                       ? 'border-ocean-500 text-ocean-700 glow-soft'
                       : 'border-transparent text-gray-500'
                   }`}
-                >
                   <Icon className="w-4 h-4" />
                   <span>{label}</span>
                 </button>
